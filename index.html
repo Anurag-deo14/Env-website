@@ -11,9 +11,10 @@
 <body>
   <div class="topnav" id="myTopnav">
     <a href="#home" class="active">Home</a>
-    <a href="#news">Our Services</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#our services" class="native">Our Services</a>
+    <a href="#contact" class="native">Contact</a>
+    <a href="#database" class="native">Database</a>
+    <a href="#about" class="native">About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -58,24 +59,24 @@
     <img src="images/pexels-pixabay-257775 (1).jpg" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="next" onclick="plusSlides(+1)">&#10095;</a>
 </div>
 <br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(0)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
 </div>
 <hr>
 
 <div class="input-city">
     <div class="card">
-        <h1>Type name of your city here</h1>
+        <h1 >Type name of your city here</h1>
         <div class="search">
             <input type="text" class="search-bar" placeholder="Search">
             <button>
@@ -85,12 +86,12 @@
 </div>
 </section>
 <hr>
-<footer>
+<footer> 
     <div class="content">
       <div class="left box">
         <div class="upper">
           <div class="topic">About us</div>
-          <p>We can help you learn HTML,
+          <p>CodingLab is a channel where you can learn HTML,
           CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
         </div>
         <div class="lower">
