@@ -250,6 +250,7 @@ hr{
      display: flex;
      align-items: center;
      justify-content: center;
+        text-align: center;
     }
     .card h1{
       font-size: medium;
